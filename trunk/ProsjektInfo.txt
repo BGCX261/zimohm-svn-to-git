@@ -1,0 +1,119 @@
+Prosjekt Zimohm
+
+Special items:
+
+	”Høna” - Ligger i rom 1, trengs for egg.
+		Egenskaper:	Produserer egg
+	”Egg” – produseres av høna hvert x minutt.
+		Egenskaper: 	Gi til Even(quest).
+				Spise – gir 2 hp.
+	”Spacepistol” – Ligger i rom 5,
+		Egenskaper: 	Attack +2
+
+	
+Quests:
+
+	”Høne” –
+		Løsning: 	Plukke den opp.
+		Belønning: 	Får høna.
+		Annet: 	Trengs for å få egg.
+
+      
+      ”Even” - En NPC i rom 2 som er sulten.
+      Løsning: 	Gi han 2 egg.
+		Belønning: 	Hint om rom 4.
+		Annet:		Hvis man ikke har egg vil han skade deg.
+	
+	”Teleport” –
+		Løsning: 	Vente i rom 4 i x Tid
+		Belønning:	Kommer til rom 5
+		Annet:		”Klokka” starter på nytt hvis man forlater rommet.
+
+	
+      ”Boss” -
+		Løsning: 	Drepe han ved hjelp av spacepistol
+		Belønning: 	Vinner spillet.
+		Annet: 
+
+	
+Players and NPCs:
+
+	”Player” – Deg.
+		HP: 10
+		Attack: 1
+		Spesial: Inventory,
+		
+	”Even” –
+		HP: 20
+		Attack: 2 
+		// Special: Can be evaded
+
+	”SpaceMan” – “Rumors of a darkness in the east, the old man whispered.”
+		HP: 10
+		Attack: 2
+		Special:
+Rom
+
+Rom 6 ”Start” (sentrum)
+	Valg: bevege seg til rom 1-4.
+	Items: ingen.
+	NPCs: ingen
+
+Rom 1 ”Høne”
+	Valg: Gå til rom 6, lete gjennom rommet, plukke opp høna.
+	Items: Høna.
+	NPCs: Ingen.
+
+Rom 2 ”Even”
+	Valg: Gå til rom 6, 
+	Items: Lapp med hint.
+	NPCs: Even.
+
+Rom 3 ”
+	Valg: Gå til rom 6,
+	Items:
+	NPCs: SpaceMan
+
+Rom 4
+	Valg: Gå til rom 6,
+	Items:
+	NPCs:
+	Special: teleporter til rom 5 etter tid.
+
+Rom 5
+	Valg: Gå til rom 6,
+	Items: Spacepistol
+	NPCs:
+
+
+Spill gjennomgang:
+
+Steg 1: Gå til rom 1(Høna) med høna, plukk den opp.
+	Alternativ: *,
+Steg 2: Gå tilbake til rom 6(Sentrum)og vent til man får 2 egg
+	Alternativ: Eventuelt gå tilbake til Sentrum for så å fortsette til tidsrommet.
+Steg 3:Gå til rom 2 (Even) og gi 2 egg til ”Even”, her får man et tips om rom 4.
+	Alternativ: *,
+Steg 4: Gå tilbake til Sentrum.
+	Alternativ: Ingen.
+Steg 5: Gå til rom 4 (Tidsrommet) og vent der i x tid.
+	Alternativ: Ingen.
+Steg 6: Teleporter til rom 5(Hemmelig) fra rom 4, plukk opp ”Spacepistol” og gå tilbake til sentrum.
+	Alternativ:
+Steg 7:Gå til rom 3(Boss), drep SpaceMan.
+	Alternativ:
+
+The End.
+
+* Gå til rom 4 (Tidsrommet) og vent x tid.
+
+
+Manus:
+
+“Is there anybody out there, he yelled in pain, fear – lost in space.”
+
+
+Mulige forbedringer/ønsker om ting
+
+Realtime fighting:
+	I en kamp vil motstanderen slå x antall ganger per sekund med en vis sjanse for å treffe, her må spilleren skrive ett ord som er hans antall. Hver gang man for eksempel skriver ”pew” vil spilleren angripe med en vis sjanse for å treffe fienden.

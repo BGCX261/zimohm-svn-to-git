@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=bug()
+comment1.target=void\ run()
+comment1.text=\nAn\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n
+comment2.target=void\ tickActive()
+comment2.text=\nView\ Active\ Objects;\n\n
+comment3.target=void\ removeExpired()
+comment3.text=\nRemove\ Expired\ objects\n\n
+comment4.target=int\ getTime()
+comment4.text=\ncalculate\ run\ time\n\n
+numComments=5

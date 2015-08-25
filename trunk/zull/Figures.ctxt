@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=name\ description\ strength
+comment0.target=Figures(String,\ String,\ int)
+comment0.text=\nCreates\ a\ new\ figure\ (player\ or\ monster).\n\n@param\ name\ Name\ of\ the\ figure.\n@param\ description\ Description\ of\ the\ figure.\n@param\ strength\ The\ figures\ strength,\ too\ messure\ how\ much\nit\ can\ carry.\n\n
+comment1.target=String\ getName()
+comment1.text=\n@return\ The\ name\ of\ the\ figure.\n\n
+comment2.target=String\ getDescription()
+comment2.text=\n@return\ Description\ of\ the\ figure.\n\n
+comment3.target=int\ getStrength()
+numComments=4

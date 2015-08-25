@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=name\ description\ health\ currentRoom
+comment0.target=Player(String,\ String,\ long,\ Room)
+comment1.params=command
+comment1.target=void\ goRoom(Command)
+comment1.text=\nTry\ to\ go\ to\ one\ direction.\ If\ there\ is\ an\ exit,\ enter\nthe\ new\ room,\ otherwise\ print\ an\ error\ message.\n\n
+comment2.params=command
+comment2.target=void\ takeItem(Command)
+comment2.text=\nA\ figure\ or\ a\ room\ takes\ an\ item\ form\ anothe\ figure\ or\ a\ room.\n\n
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=command
+comment0.target=void\ processCommand(Command)
+comment1.params=direction
+comment1.target=void\ go(String)
+comment2.target=void\ quit()
+comment3.target=void\ help()
+comment4.params=loc
+comment4.target=void\ look(String)
+comment5.params=item
+comment5.target=void\ take(String)
+comment6.params=item
+comment6.target=void\ use(String)
+numComments=7

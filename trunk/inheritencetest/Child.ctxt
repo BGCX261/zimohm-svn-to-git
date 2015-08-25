@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=duration\ sirname\ birth
+comment0.target=Child(int,\ String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Parent\n\n
+comment1.target=int\ getBirth()
+comment1.text=\nReturn\ birth.\n\n
+numComments=2

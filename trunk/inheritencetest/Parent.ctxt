@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=duration\ sirname
+comment0.target=Parent(int,\ String)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Parent\n\n
+comment1.target=int\ getDuration()
+comment1.text=\nAn\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n@return\ \ \ \ \ the\ age\ of\ a\ person\n\n
+comment2.target=String\ getSirname()
+comment2.text=\nreturn\ the\ sirname\n\n
+comment3.target=void\ tick()
+comment3.text=\nTick\ the\ object\n\n
+comment4.target=boolean\ hasExpired()
+comment4.text=\nEnded\ its\ life.\n\n
+numComments=5

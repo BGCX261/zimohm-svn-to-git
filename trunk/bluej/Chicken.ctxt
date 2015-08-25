@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=name\ description\ duration
+comment0.target=Chicken(String,\ String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Egg\n\n
+comment1.target=void\ tick()
+comment1.text=\nOverride\ Foundation\ Tick\ method.\ Here\ we\ spawn\ a\ Egg.\n\n
+comment2.target=void\ use()
+comment3.target=boolean\ hasReturnItem()
+comment3.text=\nFind\ out\ if\ the\ chicken\ has\ eggs.\n@return\ boolean\n\n
+comment4.target=Foundation\ getReturnItem()
+comment4.text=\nGet\ egg\ if\ the\ chicken\ has\ one.\n@return\ \ \ Item\ Return\ egg.\n\n
+numComments=5

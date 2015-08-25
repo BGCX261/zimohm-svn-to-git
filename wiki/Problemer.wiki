@@ -1,0 +1,5 @@
+=Problemer=
+ 
+ # Hvordan kontrollerer vi hvor lang tid det har gått for visse objekter uten å stoppe  spillet mens objektene teller.
+    ## *FORSLAG*: Lage en generell gameloop som looper _x_ antall ganger per. sec. Denne loopen sørger for å gå gjennom alle aktive objekter og initialisere en tick() metode på dem. Tick() metoden er en form for intern klokke. 
+  ** F.eks. kan en Høne ha en tick() metode som sier at etter 500 tick() lager den et new Egg();    

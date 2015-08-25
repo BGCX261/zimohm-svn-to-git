@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=name\ currentRoom
+comment0.target=Player(String,\ Room)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Player\n\n
+comment1.target=void\ move()
+comment1.text=\nMove\n\n
+comment2.params=newRoom
+comment2.target=void\ setLocation(Room)
+comment2.text=\nSet\ a\ new\ currentRoom.\n@param\ newRoom\ The\ new\ room\ a\ player\ is\ going\ to.\n\n
+comment3.target=Room\ getLocation()
+comment3.text=\nReturns\ the\ location\ of\ a\ player.\n@return\ location\n\n
+comment4.target=String\ getName()
+comment4.text=\nReturn\ the\ name\ of\ a\ player\n@return\ name\n\n
+comment5.target=int\ getMaxWeight()
+comment5.text=\nReturns\ the\ max\ weight\ a\ player\ can\ carry.\n@return\ maxWeight\ \n\n
+numComments=6

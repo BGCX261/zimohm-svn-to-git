@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=World()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ World\n\n
+comment1.params=name
+comment1.target=Room\ getRoom(String)
+comment1.text=\nget\ room\n\n
+comment2.params=name
+comment2.target=void\ addRoom(String)
+comment2.text=\nAdd\ Location\n\n
+comment3.target=HashMap<String,Room>\ createRooms()
+comment3.text=Create\ all\ the\ rooms\ and\ link\ their\ exits\ together.\n\n
+numComments=4

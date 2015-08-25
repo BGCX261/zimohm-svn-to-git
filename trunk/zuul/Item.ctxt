@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=description\ weight\ name
+comment0.target=Item(String,\ int,\ String)
+comment0.text=\nConstructor\ creates\ our\ items\ and\ adds\ description\ and\ weight\ to\ them.\n@param\ description\ The\ description\ of\ an\ item\n@param\ weight\ the\ weight\ of\ a\ given\ item\n@param\ name\ The\ name\ of\ the\ item.\ short.\n\n
+comment1.target=String\ toString()
+comment1.text=\ntoString\ returns\ a\ string\ with\ all\ info\ about\ an\ item\n@return\ Info\ about\ an\ item\ as\ String.\n\n
+comment2.target=String\ getDescription()
+comment2.text=\nReturns\ the\ description\ of\ an\ item\n@return\ description\ The\ description\ as\ string\n\n
+comment3.target=int\ getWeight()
+comment3.text=\nreturns\ the\ weight.\n@return\ weight\ The\ weight\ as\ a\ integer.\n\n
+comment4.target=String\ getName()
+comment4.text=\nReturns\ the\ name\ as\ string.\n@return\ name\ The\ name\ as\ string.\n\n
+numComments=5

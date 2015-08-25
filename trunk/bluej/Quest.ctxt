@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Quest()
+comment1.params=world
+comment1.target=boolean\ check(World)
+comment1.text=\nCheck\ status\ of\ the\ current\ quest.\n\n
+comment2.params=name
+comment2.target=Player\ getPlayer(String)
+comment2.text=\nFind\ Player\n@param\ name\ of\ player\n@return\ player\n\n
+comment3.params=world
+comment3.target=void\ setWorld(World)
+comment3.text=\nset\ world\n@param\ world\n\n
+numComments=4

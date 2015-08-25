@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Foundation\ getReturnItem()
+comment0.text=\nGet\ the\ item\ we\ want.\n@return\ \ \ \ \ \ \ \ the\ item\ going\ back.\ will\ be\ of\ type\ F.\n\n
+comment1.target=boolean\ hasReturnItem()
+comment1.text=\nFind\ out\ if\ there\ is\ a\ returnItem.\n\n
+numComments=2

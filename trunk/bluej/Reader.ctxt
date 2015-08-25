@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Reader(String)
+comment1.target=void\ start()
+comment1.text=\nStart\ thread.\n\n
+comment2.target=void\ run()
+comment2.text=\nLoop\ for\ new\ command.\n\n
+comment3.target=boolean\ hasCommand()
+comment3.text=\nFind\ out\ if\ there\ is\ a\ new\ command.\n@return\ true\ if\ there\ is\ a\ new\ command.\n\n
+comment4.target=Command\ getCommand()
+comment4.text=\nReturn\ a\ command.\n@return\ returns\ a\ string\ which\ contains\ a\ command.\n\n
+comment5.target=String\ getCommandWords()
+comment5.text=\n@return\ all\ the\ valid\ commands.\n\n
+numComments=6

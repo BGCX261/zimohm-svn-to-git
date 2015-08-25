@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=name\ description\ duration
+comment0.target=Room(String,\ String,\ int)
+comment0.text=\nCreate\ room\n\n
+comment1.target=void\ tickActive()
+comment1.text=\nOVERRIDE\:\ Tick\ all\ active\ objects.\nThis\ method\ will\ tick\ objects\ and\ check\ if\ given\ object\nhas\ something\ to\ return.\ \n\n
+comment2.params=f
+comment2.target=boolean\ move(Foundation)
+comment2.text=\nMakes\ an\ object\ ready\ to\ move.\ adds\ it\ to\ a\ special\ hashMap\nwhich\ contains\ objects\ moving\ to\ a\ different\ room.\ This\nwill\ remove\ the\ object\ from\ the\ current\ room\ on\ success.\nObjects\ can't\ move\ themself.\ They\ can\ only\ request\ to\ move.\nThis\ design\ choice\ may\ be\ rather\ hard\ to\ work\ with,\ still\ \nhave\ to\ find\ a\ better\ way.\n\n@param\ f\ Is\ the\ object\ which\ wants\ to\ move.\n@return\ true\ if\ items\ is\ added\ to\ move\ list.\n\n
+comment3.target=HashMap<Room,Foundation>\ getMoveList()
+comment3.text=\n@return\ List\ of\ items\ we'd\ like\ to\ move.\ \n\n
+comment4.params=direction\ neighbor
+comment4.target=void\ setExit(String,\ Room)
+comment4.text=\nDefine\ an\ exit\ from\ this\ room.\n@param\ direction\ The\ direction\ of\ the\ exit.\n@param\ neighbor\ \ The\ room\ to\ which\ the\ exit\ leads.\n\n
+comment5.target=Set<String>\ getExits()
+comment5.text=\nGet\ the\ exit\ directions.\n@return\ the\ set\ of\ exit\ keys.\n\n
+comment6.target=String\ getExitString()
+comment6.text=\nReturn\ a\ string\ describing\ the\ room's\ exits,\ for\ example\n"Exits\:\ north\ west".\n@return\ Details\ of\ the\ room's\ exits.\n\n
+comment7.params=direction
+comment7.target=Room\ getExit(String)
+comment7.text=\nReturn\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\n"direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\n@param\ direction\ The\ exit's\ direction.\n@return\ The\ room\ in\ the\ given\ direction.\n\n
+comment8.params=locked
+comment8.target=void\ setLocked(boolean)
+comment8.text=\nset\ locked\ status\n@param\ true\ or\ false.\n\n
+comment9.target=boolean\ getLocked()
+comment9.text=\nget\ Locked\ status\n\n
+numComments=10

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name\ description\ duration\ hitpoints\ attack\ room
+comment0.target=Player(String,\ String,\ int,\ int,\ int,\ Room)
+comment0.text=\nSet\ the\ vars\ and\ inizialise\ the\ arraylist.\n@param\ name\ The\ name\ of\ what\ we\ want\ to\ create.\n@param\ description\ The\ description\ of\ what\ we\ want\ to\ create.\n@param\ duration\ The\ duration\ of\ the\ player.\n@param\ hitpoints\ The\ hitpoints\ of\ our\ character.\n@param\ attack\ The\ attack\ of\ our\ character.\n@param\ room\ The\ location\ of\ a\ player\n\n
+comment1.target=int\ getHitpoints()
+comment1.text=\n@return\ Hitpoints.\n\n
+comment2.params=hitpoints
+comment2.target=void\ setHitpoints(int)
+comment2.text=\n@param\ set\ hitpoints.\n\n
+comment3.target=int\ getAttack()
+comment3.text=\n@return\ attack.\ \n\n
+comment4.target=Room\ getRoom()
+comment4.text=\nGet\ location.\n@return\ the\ location\ of\ a\ player.\n\n
+numComments=5
